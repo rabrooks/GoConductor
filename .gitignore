@@ -1,0 +1,64 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.coverprofile
+
+# Dependency directories (remove the comment below if you're not using Go modules)
+vendor/
+
+# Go workspace file
+go.work
+
+# Go Build Cache
+go-build/
+
+# Build artifacts
+bin/
+build/
+
+# Logs and database files
+*.log
+*.sqlite
+*.db
+*.pgdata
+
+# Secrets (store securely, avoid committing these)
+.env
+.env.local
+config/secrets.yml
+config/secrets.json
+
+# Ignore database configuration files (if any)
+dbconfig/
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+*.swp
+
+# Mac OS generated files
+.DS_Store
+
+# Linux generated files
+*.swp
+
+# Node-related files (if you have a UI or frontend layer later)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Coverage and testing
+coverage/
+*.cov
+*.testresult
+*.lcov
+
+# Generated gRPC/Protobuf files
+*.pb.go
+*.pb.gw.go
